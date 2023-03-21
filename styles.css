@@ -1,0 +1,111 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;  
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    box-shadow: rgb(38, 57, 77) 1px 20px 30px -10px;
+    padding: 60px;
+    border-radius: 5%;
+   
+    
+}
+
+.title{
+    font-size: 26px;
+    font-weight:1000;
+    line-height: 1.2;
+  margin-bottom: 20px;
+background-image: linear-gradient(to right, #00F260,#0575E6);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 2px;
+}
+
+form div input{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-image:  linear-gradient(white, white), radial-gradient(circle at top left, #00F260,#3189e2) ;
+  outline: none;
+  background-origin: border-box;
+  background-clip: padding-box, border-box; 
+  border: double 2.3px transparent;
+}
+
+form div{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+input:focus{                                    
+    border: double 2.3px transparent;
+    background-image:  linear-gradient(white, white), radial-gradient(circle at top left, #057331,#053a6f) ;
+    background-origin: border-box;
+  background-clip: padding-box, border-box; 
+}
+form div i {
+    position: absolute;
+    padding: 10px;
+}
+
+.failure-icon , .error {
+    color: red;
+}
+.success-icon {
+    color: rgb(11, 182, 11);
+}
+.error{
+    font-size: 14.6px;
+    margin-top: 5px;
+    margin-left: 5px; 
+   
+}
+
+.success-icon , .failure-icon {
+    right: 0;
+    opacity: 0;
+    }
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border : 0;
+     color: #FFFFFF;
+    line-height: 1.2em;
+    justify-content: center;
+    margin-top: 15px;
+    border: 2px ;
+    background-image: linear-gradient(144deg,#16db64 , #7aaca0 55%,#4d9ff0);
+    text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.1 ease;
+  font-size: 15px;
+}
+
+button:hover {
+    opacity: 0.8;
+    outline: 0 ;
+    box-shadow: 0px 0px 10px -10px rgba(4, 0, 0, 0.511);
+
+  }
