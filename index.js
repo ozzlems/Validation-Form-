@@ -18,7 +18,7 @@ email = id("email"),
  });
  
  let engine = (id ,  serial , message) => {
- if(id.value === ''){
+ if(id.value.trim() === ''){
     errorMsg[serial].innerHTML = message;
     failureIcon[serial].style.opacity = "1"; 
     successIcon[serial].style.opacity = "0";
