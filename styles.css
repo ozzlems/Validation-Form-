@@ -111,3 +111,46 @@ button:hover {
     box-shadow: 0px 0px 10px -10px rgba(4, 0, 0, 0.511);
 
   }
+
+  .or{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 10px;
+  }
+
+  span{
+    color: #448dd7;
+    font-weight: bolder;
+    padding-left: 5px;
+    cursor: pointer;
+   }
+   .question{
+    font-size: 14px ;
+   }
+
+  .btn{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    gap: 16px;
+    margin-top: 20px;
+    height: 60px;
+  }
+
+
+   .btn-1 , .btn-2 {
+     padding : 10px 5px;
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.793);
+    cursor: pointer;
+    border-radius: 8px;
+   }
+
+   .btn-2{
+    background-color:#ffffff ;
+   }
